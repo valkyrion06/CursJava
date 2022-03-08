@@ -12,10 +12,12 @@ public class Exercise2 {
 
         if(age < 18){
             System.out.println("You're a minor.");
-        } else if (age >= 18 && age <= 65){
-            System.out.println("You're an adult.");
-        } else {
+        } else if (age >65) {
             System.out.println("You're a senior.");
+        } else if(age<0){
+            System.out.println("You're not even born yet.");
+        }else {
+            System.out.println("You're an adult.");
         }
     }
 
