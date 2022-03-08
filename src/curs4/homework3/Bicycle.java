@@ -8,9 +8,19 @@ public class Bicycle extends Vehicle {
         setMedianSpeed(medianSpeed);
     }
 
-    @Override
+   /* @Override
     public void vehicleDetails(){
         System.out.println("The pollution level for the bicycle " + name() + " is: " + motorisation() + " and the median speed reached is " + motorisation());
+    } */
+
+    @Override
+    public String name(){
+        return "Bicycle";
+    }
+
+    @Override
+    public String motorisation(){
+        return "Pedals";
     }
 
 

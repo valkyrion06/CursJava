@@ -8,9 +8,19 @@ public class Car extends Vehicle{
         setMedianSpeed(medianSpeed);
     }
 
-    @Override
+    /*@Override
      public void vehicleDetails(){
-        System.out.println("The pollution level for the car " + name() + " is: " + motorisation() + " and the median speed reached is " + motorisation());
+        System.out.println("The pollution level for the " + name() + " is: " + motorisation() + " and the median speed reached is " + motorisation());
+    } */
+
+    @Override
+    public String name(){
+        return "Car";
+    }
+
+    @Override
+    public String motorisation(){
+        return "Engine";
     }
 
 }

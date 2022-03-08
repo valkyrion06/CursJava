@@ -8,15 +8,15 @@ public class Vehicle {
 
 
     public void vehicleDetails(){
-        System.out.println("The pollution level for the vehicle " + name() + " is: " + motorisation() + " and the median speed reached is " + motorisation());
+        System.out.println("The pollution level for the "+ name() + " is: " + pollutionLvl + " and the median speed reached is " + medianSpeed);
     }
 
     public String motorisation(){
-        return medianSpeed;
+        return "Generic";
     }
 
     public String name(){
-        return brand;
+        return "Vehicle";
     }
 
     public void setBrand(String brand) {
