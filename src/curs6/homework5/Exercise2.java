@@ -15,8 +15,9 @@ public class Exercise2 {
         char[] sentenceArray = sentence.toCharArray();
         //char[] vowels = {'a','A','e','E','I','i','o','O','u','U'};
         for(int i=0; i<sentenceArray.length; i++){
-            if(sentenceArray[i]=='a'||sentenceArray[i]=='A'||sentenceArray[i]=='e'||sentenceArray[i]=='E'||sentenceArray[i]=='i'||sentenceArray[i]=='I'||sentenceArray[i]=='o'||sentenceArray[i]=='O'||sentenceArray[i]=='u'||sentenceArray[i]=='U'){
+            if(Character.toLowerCase(sentenceArray[i])=='a'||Character.toLowerCase(sentenceArray[i])=='e'||Character.toLowerCase(sentenceArray[i])=='i'||Character.toLowerCase(sentenceArray[i])=='o'||Character.toLowerCase(sentenceArray[i])=='u'){
                 numberOfVowels ++;
+
             }
 
         }
