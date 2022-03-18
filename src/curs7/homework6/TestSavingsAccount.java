@@ -8,7 +8,7 @@ public class TestSavingsAccount {
         Scanner scanner = new Scanner(System.in);
         Customer alex = new Customer("Alex","Bucharest","alex@alex.com");
         SavingsAccount alexSavings = new SavingsAccount(1,200.0,alex);
-        System.out.println("Hello " + alexSavings.getName() +"!");
+        System.out.println("Hello" + alexSavings.getName() +"!");
         System.out.println("Please enter the amount to withdraw:");
         try {
             alexSavings.withdraw(scanner.nextDouble());
